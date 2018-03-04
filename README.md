@@ -8,10 +8,15 @@
 # 使用说明
 
 Usage: ./InjectProc.exe <type of injection> <path/to/exe or process_name> <path/to/dll>
+
 Example:
+
 		./InjectProc.exe dll_inj path/to/dll.dll notepad.exe
+		
 		./InjectProc.exe proc_rpl path/to/target/exe path/to/exe
+		
 		./InjectProc.exe hook path/to/target/exe path/to//dll
+		
 		./InjectProc.exe APC target/proc/name path/to/dll
 
 
