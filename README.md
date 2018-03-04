@@ -1,3 +1,20 @@
+
+  X64 位系统下的注入
+
+# 编译说明
+
+  只有x64模式，才能编译成功
+
+# 使用说明
+
+Usage: ./InjectProc.exe <type of injection> <path/to/exe or process_name> <path/to/dll>
+Example:
+		./InjectProc.exe dll_inj path/to/dll.dll notepad.exe
+		./InjectProc.exe proc_rpl path/to/target/exe path/to/exe
+		./InjectProc.exe hook path/to/target/exe path/to//dll
+		./InjectProc.exe APC target/proc/name path/to/dll
+
+
 # InjectProc
 
 Process injection is a very popular method to hide malicious behavior of code and are heavily used by malware authors.
